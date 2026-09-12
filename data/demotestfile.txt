@@ -1,0 +1,23 @@
+Hi Vivek,
+
+As discussed, please find below my planned roadmap for Java and Spring Boot. Since I already have experience with .NET and backend development, I have kept the basic Java concepts consolidated into the first day and allocated more time to the Java/Spring-specific concepts and hands-on implementation.
+
+| Day       | Planned Learning / Activity                                                                                                                   | Expected Outcome                                              |
+| --------- | --------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------- |
+| **Day 1** | **Core Java Basics:** Java syntax, OOP concepts, Exception Handling, Collections, Generics and Multithreading                                 | Get familiar with Java and map existing .NET concepts to Java |
+| **Day 2** | **Spring Core:** IoC, Dependency Injection, Beans, XML Configuration, Java-based Configuration and Autowiring                                 | Understand the Spring Core container and Dependency Injection |
+| **Day 3** | **Spring Boot:** Project structure, Starters, Auto Configuration, Configuration, DI and application setup                                     | Build a basic Spring Boot application                         |
+| **Day 4** | **REST API with Spring Boot:** Controllers, HTTP methods, Request/Response handling, Validation and Exception Handling                        | Develop REST APIs using Spring Boot                           |
+| **Day 5** | **Spring MVC + ORM + Spring Data JPA:** Entities, Repositories, Relationships and CRUD operations                                             | Implement database persistence using JPA                      |
+| **Day 6** | **MySQL + JPA Integration & AOP:** Database queries, JPA integration and AOP concepts                                                         | Complete backend and database integration                     |
+| **Day 7** | **Frontend & Supporting Technologies:** HTML, CSS, JavaScript, React basics + integration with Spring Boot APIs. Overview of Docker and Kafka | Understand full-stack integration and supporting technologies |
+| **Day 8** | **Hands-on Full-Stack Project:** Spring Boot + Java + MySQL + JPA + React                                                                     | Build and integrate an end-to-end application                 |
+
+### Expected Outcome
+
+By the end of the 8-day plan, I aim to have a working understanding of the Java/Spring ecosystem and hands-on experience in building a Spring Boot REST API, integrating MySQL using JPA, and connecting it with a React frontend.
+
+I will share the progress on a day-wise basis and provide updates as each phase is completed.
+
+Regards,
+Yashashvi

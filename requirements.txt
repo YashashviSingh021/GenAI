@@ -1,0 +1,12 @@
+langchain
+langchain-openai
+langchain-google-genai
+dotenv
+langchain-anthropic
+streamlit
+langchain-groq
+langchain-community
+langgraph
+pypdf
+beautifulsoup4
+wikipedia
