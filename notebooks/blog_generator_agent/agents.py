@@ -37,7 +37,7 @@ def researcher_agent(llm:ChatGroq, topic:str, audience:str, feedback:str = "") -
 
     result = chain.invoke({
         "topic":topic,
-        "auidence":audience,
+        "audience":audience,
         "revision_hints": revision_hints
     })
 
@@ -76,9 +76,11 @@ def writer_agent(llm:ChatGroq, topic:str, audience:str,research:str = "", feedba
 
     chain = WRITER_PROMPT | llm
 
+    print(revision_hints)
+
     result = chain.invoke({
         "topic":topic,
-        "auidence":audience,
+        "audience":audience,
         "research": research,
         "revision_hints": revision_hints
     })

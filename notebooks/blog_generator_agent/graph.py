@@ -1,4 +1,4 @@
-from langgraph import StateGraph, START, END
+from langgraph.graph import StateGraph, START, END
 from langgraph.checkpoint.memory import InMemorySaver
 from langgraph.types import interrupt, Command
 from typing import Literal
@@ -55,11 +55,14 @@ def writer_node(state:BlogState):
         llm = llm,
         topic= state.topic,
         audience= state.audience,
-        feedback= state.research_feedback
+        feedback= state.draft_feedback,
+        
     )
 
-    state.research = draft_data
-    state.research_feedback = ""
+    # state.research = draft_data
+    # state.research_feedback = ""
+    state.draft = draft_data
+    state.draft_feedback = ""
 
     return state
 
